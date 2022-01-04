@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sagarmatha College</title>
+        <link rel="shorcut icon" type="image" href="images/logo (1).jpg">
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,500;1,500&family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    </head>
+    <body>
+        <section class="header">
+                <nav>
+                    <a href="index.html"><img src="images/logo (1).jpg"></a>
+                    <div class="nav-links" id="navLinks">
+                        <i class="fas fa-window-close" onclick="hideMenu()"></i>
+                        <ul>
+                            <li><a href="">HOME</a></li>
+                            <li><a href="">ABOUT</a></li>
+                            <li><a href="">COURSE</a></li>
+                            <li><a href="">BLOG</a></li>
+                            <li><a href="">CONTACT</a></li>
+                        </ul>
+                        </div>
+                        <i class="fas fa-bars"onclick="showMenu()"></i>
+                </nav>
+                <div class="text-box">
+                    <h1>Nepal's Largest University</h1>
+                    <p>Learning is  now easy.<br>
+                    The place where you want to shape your future.</p>
+                    <a href="" class="hero-btn">Visit Us To Know More.</a>
+                </div>
+
+        </section>
+    <!------Course----->
+        <section class="course">
+            <h1>Courses we offer.</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+
+                <div class="row">
+                    <div class="course-col">
+                        <h3> B.Tech</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Similique officiis asperiores quaerat odio! Voluptates mollitia quas ab obcaecati recusandae. 
+                            Natus nihil eligendi voluptatum labore voluptate provident, temporibus illo obcaecati magni.</p>
+                    </div>
+                    <div class="course-col">
+                        <h3> BCA</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Similique officiis asperiores quaerat odio! Voluptates mollitia quas ab obcaecati recusandae. 
+                            Natus nihil eligendi voluptatum labore voluptate provident, temporibus illo obcaecati magni.</p>
+                    </div>
+                    <div class="course-col">
+                        <h3> Bsc.Csit</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Similique officiis asperiores quaerat odio! Voluptates mollitia quas ab obcaecati recusandae. 
+                            Natus nihil eligendi voluptatum labore voluptate provident, temporibus illo obcaecati magni.</p>
+                    </div>
+                </div>
+        </section>
+
+    <!---Campus--->
+    <section class="campus">
+        <h1>Our Global Campus</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+        <div class="row">
+            <div class="campus-col">
+                <img src="images/th (6).jpg" alt="There was supposed to be a picture of campus.">
+                <div class="layer">
+                    <h3>KATHMANDU</h3>
+                </div>
+            </div>
+                <div class="campus-col">
+                    <img src="images/UC Berkeley.jpg" alt="There was supposed to be a picture of campus.">
+                    <div class="layer">
+                        <h3>LALITPUR</h3>
+                    </div>
+                </div>
+                    <div class="campus-col">
+                        <img src="images/harvard.jpg" alt="There was supposed to be a picture of campus.">
+                        <div class="layer">
+                            <h3>BHAKTAPUR</h3>
+                        </div>
+            </div>
+
+    </section>
+
+
+
+    <!----Javascript for Toggle Menu------>
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right= "0";
+            }
+            function hideMenu(){
+                navLinks.style.right ="-200px";
+            }
+
+        </script>
+
+    <!--Facilities-->
+        <section class="facilities">
+            <h1>Our facilities</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+            <div class="row">
+                <div class="facilities-col">
+                    <img src="images/library.jpg">
+                    <h3>World Class Library</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                </div>
+
+                <div class="facilities-col">
+                    <img src="images/basketball court.jpg">
+                    <h3>Largest Play Ground</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                </div>
+
+                <div class="facilities-col">
+                    <img src="images/Cafeteria.jpg">
+                    <h3>Hygienic Cafeteria</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- testimonials -->
+
+        <section class="testimonials">
+            <h1>What Our Students Said</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+            <div class="row">
+                <div class="testimonials-col">
+                    <img src="images/manish_aryal.png">
+                    <div>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                            Sequi excepturi blanditiis fugit possimus minus odit vitae laborum, modi nisi hic labore ipsum in cupiditate consectetur dolores est ad laboriosam autem?</p>
+                            <h3>Manish_Aryal</h3>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                
+                <div class="testimonials-col">
+                    <img src="images/Priyanka karki.png">
+                    <div>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                            Sequi excepturi blanditiis fugit possimus minus odit vitae laborum, modi nisi hic labore ipsum in cupiditate consectetur dolores est ad laboriosam autem?</p>
+                            <h3>Priyanka_Karki</h3>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!---- call to action--->
+
+        <section class="cta">
+            <h1>Enroll for our various online courses 
+                <br> anywhere from the world for free</h1>
+                <a href="" class="hero-btn">CONTACT US</a>
+        </section>
+
+        <!---- Footer--->
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Amet consequatur, eaque distinctio incidunt natus <br>magni suscipit possimus 
+                commodi fugit eveniet repellat reiciendis modi autem quis obcaecati omnis itaque minima quisquam.</p>
+                <div class="icons">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin"></i>
+                </div>
+                <p>Made with <i class="far fa-heart"></i>Abhisekh_Kay</p>
+        </section>
+
+    </body>
+    </html>
